@@ -1,0 +1,7 @@
+name: LumpyTalesPlugin
+version: '${version}'
+main: de.tale.lumpy.minecraft.LumpyTalesPlugin
+api-version: 1.19
+prefix: LTP
+authors: [ LumpyTale ]
+description: Plugin used to mod the world in several ways
