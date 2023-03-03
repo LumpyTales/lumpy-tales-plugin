@@ -1,10 +1,8 @@
-package de.tale.lumpy.minecraft.action;
+package de.tale.lumpy.minecraft.interaction.action;
 
-import de.tale.lumpy.minecraft.undo.ResetBlock;
-import de.tale.lumpy.minecraft.undo.ResetBlockChanges;
+import de.tale.lumpy.minecraft.interaction.undo.ResetBlock;
+import de.tale.lumpy.minecraft.interaction.undo.ResetBlockChanges;
 import org.bukkit.Material;
-import org.bukkit.World;
-import org.bukkit.block.data.BlockData;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.Event;
 

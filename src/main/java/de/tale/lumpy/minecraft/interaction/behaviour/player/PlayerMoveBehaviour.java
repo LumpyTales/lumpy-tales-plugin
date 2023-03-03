@@ -1,8 +1,8 @@
-package de.tale.lumpy.minecraft.behaviour.player;
+package de.tale.lumpy.minecraft.interaction.behaviour.player;
 
-import de.tale.lumpy.minecraft.action.EnLightBlockAction;
-import de.tale.lumpy.minecraft.action.EntityAction;
-import de.tale.lumpy.minecraft.behaviour.AbstractBehaviour;
+import de.tale.lumpy.minecraft.interaction.action.EnLightBlockAction;
+import de.tale.lumpy.minecraft.interaction.action.EntityAction;
+import de.tale.lumpy.minecraft.interaction.behaviour.AbstractBehaviour;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerMoveEvent;
 

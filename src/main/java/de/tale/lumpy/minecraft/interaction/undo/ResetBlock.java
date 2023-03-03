@@ -1,4 +1,4 @@
-package de.tale.lumpy.minecraft.undo;
+package de.tale.lumpy.minecraft.interaction.undo;
 
 import org.bukkit.Location;
 import org.bukkit.World;

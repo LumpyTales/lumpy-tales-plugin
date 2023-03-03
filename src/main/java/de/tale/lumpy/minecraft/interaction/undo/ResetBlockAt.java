@@ -1,4 +1,4 @@
-package de.tale.lumpy.minecraft.undo;
+package de.tale.lumpy.minecraft.interaction.undo;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

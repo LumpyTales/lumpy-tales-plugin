@@ -1,7 +1,7 @@
-package de.tale.lumpy.minecraft.reaction;
+package de.tale.lumpy.minecraft.interaction.reaction;
 
-import de.tale.lumpy.minecraft.behaviour.Behaviour;
-import de.tale.lumpy.minecraft.behaviour.player.PlayerMoveBehaviour;
+import de.tale.lumpy.minecraft.interaction.behaviour.Behaviour;
+import de.tale.lumpy.minecraft.interaction.behaviour.player.PlayerMoveBehaviour;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;

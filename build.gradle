@@ -1,4 +1,5 @@
 plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'java'
 }
 
@@ -15,10 +16,15 @@ repositories {
         name = 'sonatype'
         url = 'https://oss.sonatype.org/content/groups/public/'
     }
+    maven {
+        name = 'gui-framework'
+        url = 'https://repo.mattstudios.me/artifactory/public/'
+    }
 }
 
 dependencies {
     compileOnly 'io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT'
+    implementation "dev.triumphteam:triumph-gui:3.1.4"
 }
 
 def targetJavaVersion = 17
@@ -44,4 +50,8 @@ processResources {
     filesMatching('plugin.yml') {
         expand props
     }
+}
+
+shadowJar {
+    relocate("dev.triumphteam.gui", 'de.tale.lumpy.minecraft.gui')
 }
